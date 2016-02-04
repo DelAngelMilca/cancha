@@ -6,25 +6,45 @@
 }
 .cancha{
 	height:100%;
-	margin:1px solid white;
-
+	border:1px solid white;
 }
 .arco{
-	height: 100px;
-	width: 50px;
+	height: 250px;
+	width: 120px;
 	border: 1px solid white;
 }
-.left{
-	position: absolute;
-	right: -1px;
+.left {
+	position:relative;
+	left: -1px;
+	top: 85px;
 }
-.rigth{
-	position: relative;
-	left:-1px;
+.rigth {
+	position:absolute;
+	left:705px;
+	top: 110px;
 }
-.centro{
-	position: relative;
-	right:-1px;
+.centro {
 	border-radius: 100%;
-	border:1px solid white;
+	position: absolute;
+	left: 20%;
+	border: 1px solid white;
+	height: 200px;
+	width: 200px;
+	bottom:400px;
+
+}	
+.bcentro{
+	position: relative;
+	left: 55%;
+	bottom: 440px;
+}
+.bleft{
+	position: relative;
+	left: 8%;
+	bottom: 395px;
+}
+.bright{
+	position: relative;
+	left: 520px;
+	bottom:250px;
 }
